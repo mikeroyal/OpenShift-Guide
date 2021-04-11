@@ -40,11 +40,12 @@
 14. [Bash/PowerShell Development](https://github.com/mikeroyal/OpenShift-Guide/blob/main/README.md#bashpowershell-development)
 
 
-
+<p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/114321361-5763d400-9acf-11eb-94d6-5569dbd712a2.png">
+  <br />
+</p>
  
 **Red Hat OpenShift Storage Architecture. Source: [Red Hat](https://www.redhat.com/en/resources/openshift-container-storage-datasheet)**
-
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/114321362-57fc6a80-9acf-11eb-8ab3-9037e19fbfda.png">
