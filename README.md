@@ -8,6 +8,10 @@
  
  **Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
  
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/145697393-c32b7913-1f3d-4f01-ba7a-c258adcd8dec.png">
+  <br />
+</p>
  
 # Table of Contents
 
@@ -47,10 +51,6 @@
  
 **Red Hat OpenShift Storage Architecture. Source: [Red Hat](https://www.redhat.com/en/resources/openshift-container-storage-datasheet)**
 
-<p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/114321362-57fc6a80-9acf-11eb-8ab3-9037e19fbfda.png">
-  <br />
-</p>
 
 # OpenShift Learning Resources
 
