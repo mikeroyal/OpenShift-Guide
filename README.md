@@ -15,7 +15,10 @@
  
 # Table of Contents
 
-1. [OpenShift Learning Resources](https://github.com/mikeroyal/OpenShift-Guide/blob/main/README.md#openshift-learning-resources)
+1. [Getting Started with OpenShift](https://github.com/mikeroyal/OpenShift-Guide/blob/main/README.md#getting-started-with-openshift)
+    - [Developer Resources](#Developer-Resources)
+    - [Certifications & Courses](#Certifications--Courses)
+    - [Books](#Books)
 
 2. [OpenShift Tools](https://github.com/mikeroyal/OpenShift-Guide/blob/main/README.md#openshift-tools)
 
@@ -52,39 +55,90 @@
 **Red Hat OpenShift Storage Architecture. Source: [Red Hat](https://www.redhat.com/en/resources/openshift-container-storage-datasheet)**
 
 
-# OpenShift Learning Resources
+# Getting Started with OpenShift
 
-[Back to the Top](https://github.com/mikeroyal/OpenShift-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 [Red Hat OpenShift](https://www.openshift.com/) is an open source container application platform based on the Kubernetes container orchestrator for enterprise app development and deployment in the hybrid cloud Red Hat OpenShift, the open hybrid cloud platform built on Kubernetes.
 
-[Get Started with the CLI on OpenShift](https://docs.openshift.com/container-platform/3.9/cli_reference/get_started_cli.html)
+### Developer Resources
+[Back to the Top](#table-of-contents)
 
-[CI/CD with OpenShift](https://www.openshift.com/blog/cicd-with-openshift)
+ * [Get Started with the CLI on OpenShift](https://docs.openshift.com/container-platform/3.9/cli_reference/get_started_cli.html)
 
-[AI/ML on OpenShift](https://www.openshift.com/learn/topics/ai-ml)
+ * [CI/CD with OpenShift](https://www.openshift.com/blog/cicd-with-openshift)
 
-[Red Hat OpenShift on VMware](https://www.openshift.com/learn/topics/openshift-on-vmware)
+ * [AI/ML on OpenShift](https://www.openshift.com/learn/topics/ai-ml)
 
-[Understanding service mesh with OpenShift](https://docs.openshift.com/container-platform/4.1/service_mesh/service_mesh_arch/understanding-ossm.html)
+ * [Red Hat OpenShift on VMware](https://www.openshift.com/learn/topics/openshift-on-vmware)
 
-[OpenShift Training from Red Hat](https://www.redhat.com/en/openshift-training)
+ * [Understanding service mesh with OpenShift](https://docs.openshift.com/container-platform/4.1/service_mesh/service_mesh_arch/understanding-ossm.html)
 
-[OpenShift: Interactive Learning Portal](https://learn.openshift.com/)
+ * [IBM Redbooks | Red Hat](https://www.redbooks.ibm.com/domains/redhat)
+ 
+ * [DevOps Training & Tutorials | Red Hat Developer](https://developers.redhat.com/topics/devops
+ 
+ * [All Topics for Software Developers | Red Hat Developer](https://developers.redhat.com/topics)
 
-[Red Hat Certified Specialist in OpenShift Administration](https://www.redhat.com/en/services/certification/rhcs-paas)
+ * [Develop Applications on OpenShift](https://developers.redhat.com/openshift)
+ 
+ * [Automate application security with OpenShift Pipelines](https://developers.redhat.com/topics/devsecops)
 
-[Red Hat OpenShift Operator Certification](https://www.openshift.com/blog/red-hat-openshift-operator-certification)
+ * [What is the difference between OpenShift and Kubernetes?](https://developers.redhat.com/openshift/difference-openshift-kubernetes/)
 
-[Kubernetes and OpenShift: Community, Standards and Certifications](https://www.openshift.com/blog/kubernetes-and-openshift-community-standards-and-certifications)
+ * [What books are available about OpenShift?](https://developers.redhat.com/openshift/openshift-books/)
 
-[OpenShift Courses on Udemy](https://www.udemy.com/topic/openshift/)
+ * [Where can I try out OpenShift to see what it is like?](https://developers.redhat.com/openshift/try-openshift/)
 
-[OpenShift - Deploying Applications course on Coursera](https://www.coursera.org/lecture/ibm-cloud-essentials/openshift-499y0)
+ * [How can I run OpenShift on my own computer for development?](https://developers.redhat.com/openshift/local-openshift/)
 
-[Introduction to Containers w/ Docker, Kubernetes & OpenShift course on Coursera](https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift)
+ * [What hosting services are there that use OpenShift?](https://developers.redhat.com/openshift/hosting-openshift/)
+ 
+### Certifications & Courses
+[Back to the Top](#table-of-contents)
+ 
+ * [OpenShift Training from Red Hat](https://www.redhat.com/en/openshift-training)
 
-[Fundamentals of Containers, Kubernetes, and Red Hat OpenShift on edX](https://www.edx.org/course/fundamentals-of-containers-kubernetes-and-red-hat)
+ * [OpenShift: Interactive Learning Portal](https://learn.openshift.com/)
+
+ * [Red Hat Certified Specialist in OpenShift Administration](https://www.redhat.com/en/services/certification/rhcs-paas)
+
+ * [Red Hat OpenShift Operator Certification](https://www.openshift.com/blog/red-hat-openshift-operator-certification)
+
+ * [Kubernetes and OpenShift: Community, Standards and Certifications](https://www.openshift.com/blog/kubernetes-and-openshift-community-standards-and-certifications)
+
+ * [OpenShift Courses | Udemy](https://www.udemy.com/topic/openshift/)
+
+ * [OpenShift - Deploying Applications course | Coursera](https://www.coursera.org/lecture/ibm-cloud-essentials/openshift-499y0)
+
+ * [Introduction to Containers w/ Docker, Kubernetes & OpenShift course | Coursera](https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift)
+
+ * [Fundamentals of Containers, Kubernetes, and Red Hat OpenShift | edX](https://www.edx.org/course/fundamentals-of-containers-kubernetes-and-red-hat)
+ 
+### Books
+[Back to the Top](#table-of-contents)
+
+ * [OpenShift for Developers, Second Edition by Joshua Wood & Brian Tannous ](https://developers.redhat.com/e-books/openshift-for-developers)
+
+ * [Introducing Istio Service Mesh for Microservices by Burr Sutter and Christian Posta](https://developers.redhat.com/e-books/introducing-istio-service-mesh-microservices-old)
+
+ * [DevOps with OpenShift by Stefano Picozzi, Mike Hepburn & Noel O'Connor](https://developers.redhat.com/topics/devops)
+
+ * [Microservices for Java Developers: A Hands-on Introduction to Frameworks and Containers by Rafael Benevides](https://developers.redhat.com/e-books/microservices-java-developers-hands-introduction-frameworks-and-containers-old)
+
+ * [Migrating to Microservice Databases: From Relational Monolith to Distributed Data by Edson Yanaga](https://developers.redhat.com/e-books/migrating-microservice-databases-relational-monolith-distributed-data-old)
+
+ * [OpenShift 3 for Developers: A Guide for Impatient Beginners by Grant Shipley, Graham Dumpleton](https://developers.redhat.com/e-books/openshift-developers-guide-impatient-beginners-old)
+
+ * [Using the IBM Block Storage CSI Driver in a Red Hat OpenShift Environment](https://www.redbooks.ibm.com/abstracts/redp5613.html)
+
+ * [Storage Multi-tenancy for Red Hat OpenShift Container Platform with IBM Storage](https://www.redbooks.ibm.com/abstracts/redp5638.html)
+
+ * [An Implementation of Red Hat OpenShift Network Isolation Using Multiple Ingress Controllers](https://www.redbooks.ibm.com/abstracts/redp5641.html)
+
+ * [IBM Spectrum Scale as a Persistent Storage for Red Hat OpenShift on IBM Z Quick Installation Guide](https://www.redbooks.ibm.com/abstracts/redp5645.html)
+
+ * [Innovate at Scale and Deploy with Confidence in a Hybrid Cloud Environment](https://www.redbooks.ibm.com/abstracts/redp5621.html)
 
 # OpenShift Tools
 
