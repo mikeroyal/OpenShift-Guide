@@ -47,19 +47,19 @@
 14. [Bash/PowerShell Development](https://github.com/mikeroyal/OpenShift-Guide/blob/main/README.md#bashpowershell-development)
 
 
-<p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/114321361-5763d400-9acf-11eb-94d6-5569dbd712a2.png">
-  <br />
-</p>
- 
-**Red Hat OpenShift Storage Architecture. Source: [Red Hat](https://www.redhat.com/en/resources/openshift-container-storage-datasheet)**
-
 
 # Getting Started with OpenShift
 
 [Back to the Top](#table-of-contents)
 
 [Red Hat OpenShift](https://www.openshift.com/) is an open source container application platform based on the Kubernetes container orchestrator for enterprise app development and deployment in the hybrid cloud Red Hat OpenShift, the open hybrid cloud platform built on Kubernetes.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/114321361-5763d400-9acf-11eb-94d6-5569dbd712a2.png">
+  <br />
+</p>
+ 
+**Red Hat OpenShift Storage Architecture. Source: [Red Hat](https://www.redhat.com/en/resources/openshift-container-storage-datasheet)**
 
 ### Developer Resources
 [Back to the Top](#table-of-contents)
@@ -76,7 +76,7 @@
 
  * [IBM Redbooks | Red Hat](https://www.redbooks.ibm.com/domains/redhat)
  
- * [DevOps Training & Tutorials | Red Hat Developer](https://developers.redhat.com/topics/devops
+ * [DevOps Training & Tutorials | Red Hat Developer](https://developers.redhat.com/topics/devops)
  
  * [All Topics for Software Developers | Red Hat Developer](https://developers.redhat.com/topics)
 
