@@ -20,6 +20,7 @@
     * [Certifications & Courses](#Certifications--Courses)
     * [Books](#Books)
     * [Setting up Red Hat CodeReady Containers (CRC) OpenShift](https://github.com/mikeroyal/OpenShift-Guide#Red-Hat-CodeReady-Containers-CRC)
+    * [Setting up Podman](https://github.com/mikeroyal/OpenShift-Guide#setting-up-podman)
 
 2. [OpenShift Tools](https://github.com/mikeroyal/OpenShift-Guide/blob/main/README.md#openshift-tools)
 
@@ -235,6 +236,24 @@
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/193534587-c86d546f-814b-420d-ac45-15d5c2ca6ede.png">
   <br />
+</p>
+
+### Setting up Podman
+
+[Back to the Top](#table-of-contents)
+
+[Podman (the POD manager)](https://podman.io/) is an open source tool for developing, managing, and running containers on your Linux® systems. It also manages the entire container ecosystem using the libpod library.  Podman’s daemonless and inclusive architecture makes it a more secure and accessible option for container management, and its accompanying tools and features, such as [Buildah](https://www.redhat.com/en/topics/containers/what-is-buildah) and [Skopeo](https://www.redhat.com/en/topics/containers/what-is-skopeo), allow developers to customize their container environments to best suit their needs. 
+
+ * Fedora: ```sudo dnf install podman```
+ * CentOS: ```sudo yum --enablerepo=extras install podman```
+ * Ubuntu 20.04 or later: ```sudo apt install podman```
+ * Debian 11 (bullseye) or later, or sid/unstable: ```sudo apt install podman```
+ * ArchLinux: ```sudo pacman -S podman``` and then tweaks for rootless 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/193426691-d47b65df-bd28-4c60-82f8-282005392556.png">
+  <br />
+ Podman
 </p>
 
 # OpenShift Tools
