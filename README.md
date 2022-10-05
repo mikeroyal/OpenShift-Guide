@@ -21,6 +21,7 @@
     * [Books](#Books)
     * [Setting up Red Hat CodeReady Containers (CRC) OpenShift](https://github.com/mikeroyal/OpenShift-Guide#Red-Hat-CodeReady-Containers-CRC)
     * [Setting up Podman](https://github.com/mikeroyal/OpenShift-Guide#setting-up-podman)
+    * [Setting up Buildah](https://github.com/mikeroyal/OpenShift-Guide#setting-up-buildah)
 
 2. [OpenShift Tools](https://github.com/mikeroyal/OpenShift-Guide/blob/main/README.md#openshift-tools)
 
@@ -254,6 +255,24 @@
 <img src="https://user-images.githubusercontent.com/45159366/193426691-d47b65df-bd28-4c60-82f8-282005392556.png">
   <br />
  Podman
+</p>
+
+### Setting up Buildah
+
+[Back to the Top](#table-of-contents) 
+
+[Buildah](https://buildah.io/) is an open source, Linux-based tool that can build Docker- and Kubernetes-compatible images, and is easy to incorporate into scripts and build pipelines. In addition, Buildah has overlap functionality with [Podman](https://podman.io/), [Skopeo](https://github.com/containers/skopeo), and [CRI-O](https://cri-o.io/).
+
+ * Fedora: ```sudo dnf -y install buildah```
+ * CentOS: ```sudo yum --enablerepo=extras install buildah```
+ * Ubuntu 20.04 or later: ```sudo apt install buildah```
+ * Debian 11 (bullseye) or later, or sid/unstable: ```sudo apt install -y buildah```
+ * ArchLinux: ```sudo pacman -S buildah``` and then tweaks for rootless 
+ 
+ <p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/193426954-22a0dcd8-5911-448b-b538-f1569ec20b35.png">
+  <br />
+ Buildah
 </p>
 
 # OpenShift Tools
