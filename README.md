@@ -22,6 +22,7 @@
     * [Setting up Red Hat CodeReady Containers (CRC) OpenShift](https://github.com/mikeroyal/OpenShift-Guide#Red-Hat-CodeReady-Containers-CRC)
     * [Setting up Podman](https://github.com/mikeroyal/OpenShift-Guide#setting-up-podman)
     * [Setting up Buildah](https://github.com/mikeroyal/OpenShift-Guide#setting-up-buildah)
+    * [Setting up Skopeo](https://github.com/mikeroyal/OpenShift-Guide#setting-up-skopeo)
 
 2. [OpenShift Tools](https://github.com/mikeroyal/OpenShift-Guide/blob/main/README.md#openshift-tools)
 
@@ -246,7 +247,7 @@
 [Podman (the POD manager)](https://podman.io/) is an open source tool for developing, managing, and running containers on your Linux® systems. It also manages the entire container ecosystem using the libpod library.  Podman’s daemonless and inclusive architecture makes it a more secure and accessible option for container management, and its accompanying tools and features, such as [Buildah](https://www.redhat.com/en/topics/containers/what-is-buildah) and [Skopeo](https://www.redhat.com/en/topics/containers/what-is-skopeo), allow developers to customize their container environments to best suit their needs. 
 
  * Fedora: ```sudo dnf install podman```
- * CentOS: ```sudo yum --enablerepo=extras install podman```
+ * CentOS Stream: ```sudo dnf install buildah```
  * Ubuntu 20.04 or later: ```sudo apt install podman```
  * Debian 11 (bullseye) or later, or sid/unstable: ```sudo apt install podman```
  * ArchLinux: ```sudo pacman -S podman``` and then tweaks for rootless 
@@ -264,7 +265,7 @@
 [Buildah](https://buildah.io/) is an open source, Linux-based tool that can build Docker- and Kubernetes-compatible images, and is easy to incorporate into scripts and build pipelines. In addition, Buildah has overlap functionality with [Podman](https://podman.io/), [Skopeo](https://github.com/containers/skopeo), and [CRI-O](https://cri-o.io/).
 
  * Fedora: ```sudo dnf -y install buildah```
- * CentOS: ```sudo yum --enablerepo=extras install buildah```
+ * CentOS Stream: ```sudo dnf -y install buildah```
  * Ubuntu 20.04 or later: ```sudo apt install buildah```
  * Debian 11 (bullseye) or later, or sid/unstable: ```sudo apt install -y buildah```
  * ArchLinux: ```sudo pacman -S buildah``` and then tweaks for rootless 
@@ -274,6 +275,52 @@
   <br />
  Buildah
 </p>
+
+### Setting up Skopeo
+
+[Back to the Top](#table-of-contents)
+
+[Skopeo](https://github.com/containers/skopeo) is a tool for manipulating, inspecting, signing, and transferring container images and image repositories on Linux systems, Windows and MacOS. In addition, Skopeo has overlap functionality with [Podman](https://podman.io/), [Buildah](https://buildah.io/), and [CRI-O](https://cri-o.io/).
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/194253663-80663090-0ed1-4ac9-8d2b-b1fb390b7be8.png">
+  <br />
+</p>
+
+ * Fedora: ```sudo dnf install skopeo```
+ * CentOS Stream: ```sudo dnf -y install skopeo```
+ * Ubuntu 20.04 or later: ```sudo apt install skopeo```
+ * Debian 11 (bullseye) or later, or sid/unstable: ```sudo apt install skopeo```
+ * openSUSE: ```sudo zypper install skopeo```
+ * Alpine Linux: ```sudo apk add skopeo```
+ * ArchLinux: ```sudo pacman -S skopeo``` and then tweaks for rootless 
+ * Nix/NixOS: ```$ nix-env -i skopeo```
+ * MacOS: ```brew install skopeo```
+ 
+**Skopeo Usage:**
+
+```
+$ skopeo --help
+
+Various operations with container images and container image registries
+
+Usage:
+  skopeo [command]
+
+Available Commands:
+  copy                                       Copy an IMAGE-NAME from one location to another
+  delete                                     Delete image IMAGE-NAME
+  help                                       Help about any command
+  inspect                                    Inspect image IMAGE-NAME
+  list-tags                                  List tags in the transport/repository specified by the REPOSITORY-NAME
+  login                                      Login to a container registry
+  logout                                     Logout of a container registry
+  manifest-digest                            Compute a manifest digest of a file
+  standalone-sign                            Create a signature using local files
+  standalone-verify                          Verify a signature using local files
+  sync                                       Synchronize one or more images from one location to another
+  ```
+
 
 # OpenShift Tools
 
