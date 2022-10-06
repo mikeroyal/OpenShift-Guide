@@ -252,6 +252,14 @@
  * Debian 11 (bullseye) or later, or sid/unstable: ```sudo apt install podman```
  * ArchLinux: ```sudo pacman -S podman``` and then tweaks for rootless 
 
+[Podman Desktop](https://github.com/containers/podman-desktop) is a tool to manage Podman and other container engines from a single UI and tray local environment.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/194254969-e1950739-299d-45a4-8d7f-78750ea12d13.png">
+  <br />
+  Podman Desktop
+</p>
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/193426691-d47b65df-bd28-4c60-82f8-282005392556.png">
   <br />
