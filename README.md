@@ -24,6 +24,7 @@
     * [Setting up Podman](https://github.com/mikeroyal/OpenShift-Guide#setting-up-podman)
     * [Setting up Buildah](https://github.com/mikeroyal/OpenShift-Guide#setting-up-buildah)
     * [Setting up Skopeo](https://github.com/mikeroyal/OpenShift-Guide#setting-up-skopeo)
+    * [File systems](#file-systems)
 
 2. [OpenShift Tools](https://github.com/mikeroyal/OpenShift-Guide/blob/main/README.md#openshift-tools)
 
@@ -340,6 +341,50 @@ Available Commands:
   sync                                       Synchronize one or more images from one location to another
   ```
 
+ 
+### File systems
+
+[Back to the Top](#table-of-contents)
+
+[CIFS (Common Internet File System)](https://cifs.com/) is a network filesystem protocol used for providing shared access to files and printers between machines on the network. The client application can read, write, edit and even remove files on the remote server. 
+
+[Network File System (NFS)](https://learn.microsoft.com/en-us/windows-server/storage/nfs/nfs-overview) is a protocol that provides a file sharing solution for enterprises that have heterogeneous environments that include both Windows and non-Windows computers. It's most notable for its host authentication, it’s simple to setup, and makes it possible to connect to another service using an IP address only.
+
+**Additional benefits of NFS file share include:**
+
+   * NFS provides a central management.
+   * NFS allows for a user to log into any server and have access to their files transparently.
+   * It’s been around for a long time, so it comes with familiarity in terms of applications.
+   * No manual refresh needed for new files.
+   * It Can be secured with firewalls and Kerberos.
+
+[GlusterFS](https://www.gluster.org/) is a free and open source scalable network filesystem. Gluster is a scalable network filesystem. Using common off-the-shelf hardware, you can create large, distributed storage solutions for media streaming, data analysis, and other data- and bandwidth-intensive tasks.
+
+[Ceph](https://ceph.io/) is a software-defined storage solution designed to address the object, block, and file storage needs of data centers adopting open source as the new norm for high-growth block storage, object stores and data lakes. Ceph provides enterprise scalable storage while keeping [CAPEX](https://corporatefinanceinstitute.com/resources/knowledge/modeling/how-to-calculate-capex-formula/) and [OPEX](https://www.investopedia.com/terms/o/operating_expense.asp) costs in line with underlying bulk commodity disk prices.
+
+[Hadoop Distributed File System (HDFS)](https://www.ibm.com/analytics/hadoop/hdfs) is a distributed file system that handles large data sets running on commodity hardware. It is used to scale a single Apache Hadoop cluster to hundreds (and even thousands) of nodes. HDFS is one of the major components of Apache Hadoop, the others being [MapReduce](https://www.ibm.com/analytics/hadoop/mapreduce) and [YARN](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html).
+
+[ZFS](https://docs.oracle.com/cd/E19253-01/819-5461/zfsover-2/) is an enterprise-ready open source file system and volume manager with unprecedented flexibility and an uncompromising commitment to data integrity.
+
+[OpenZFS](https://openzfs.org/wiki/Main_Page ) is an open-source storage platform. It includes the functionality of both traditional file systems and volume manager. It has many advanced features including:
+
+  - Protection against data corruption.
+  - Integrity checking for both data and metadata.
+  - Continuous integrity verification and automatic "self-healing" repair.
+
+[Btrfs](https://btrfs.wiki.kernel.org/index.php/Main_Page) is a modern copy on write (CoW) filesystem for Linux aimed at implementing advanced features while also focusing on fault tolerance, repair and easy administration. Its main features and benefits are:
+
+  * Snapshots which do not make the full copy of files
+  * RAID - support for software-based RAID 0, RAID 1, RAID 10
+  * Self-healing - checksums for data and metadata, automatic detection of silent data corruptions
+  
+[Bcachefs](https://bcachefs.org/) is an advanced new filesystem for Linux, with an emphasis on reliability and robustness and the complete set of features one would expect from a modern filesystem. Scalability has been tested to 50+ TB, will eventually scale far higher. 
+
+[Ext4](https://ext4.wiki.kernel.org/index.php/Ext4_Howto) is a journaling file system for Linux, developed as the successor to ext3
+
+[Squashfs](https://www.kernel.org/doc/html/latest/filesystems/squashfs.html) is a compressed read-only filesystem for Linux. It uses zlib, lz4, lzo, or xz compression to compress files, inodes and directories. Inodes in the system are very small and all blocks are packed to minimize data overhead.
+
+[NTFS(New Technology File System)](https://docs.microsoft.com/en-us/windows-server/storage/file-server/ntfs-overview) is the primary file system for recent versions of Windows and Windows Server—provides a full set of features including security descriptors, encryption, disk quotas, and rich metadata, and can be used with Cluster Shared Volumes (CSV) to provide continuously available volumes that can be accessed simultaneously from multiple nodes of a failover cluster.
 
 # OpenShift Tools
 
