@@ -247,7 +247,11 @@
 
 [Back to the Top](#table-of-contents)
 
-[Podman (the POD manager)](https://podman.io/) is an open source tool for developing, managing, and running containers on your Linux® systems. It also manages the entire container ecosystem using the libpod library.  Podman’s daemonless and inclusive architecture makes it a more secure and accessible option for container management, and its accompanying tools and features, such as [Buildah](https://www.redhat.com/en/topics/containers/what-is-buildah) and [Skopeo](https://www.redhat.com/en/topics/containers/what-is-skopeo), allow developers to customize their container environments to best suit their needs. 
+[Podman (the POD manager)](https://podman.io/) is an open source tool for developing, managing, and running containers on your Linux systems. It also manages the entire container ecosystem using the libpod library.  Podman’s daemonless and inclusive architecture makes it a more secure and accessible option for container management, and its accompanying tools and features, such as [Buildah](https://www.redhat.com/en/topics/containers/what-is-buildah) and [Skopeo](https://www.redhat.com/en/topics/containers/what-is-skopeo), allow developers to customize their container environments to best suit their needs. 
+
+  * [Libpod](https://pkg.go.dev/github.com/containers/podman/libpod) provides a library for applications looking to use the Container Pod concept made  popular by Kubernetes.
+  
+ **Installing Podman:**
 
  * Fedora: ```sudo dnf install podman```
  * CentOS Stream: ```sudo dnf install buildah```
