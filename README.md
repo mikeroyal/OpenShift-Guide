@@ -257,6 +257,7 @@
  * CentOS Stream: ```sudo dnf install buildah```
  * Ubuntu 20.04 or later: ```sudo apt install podman```
  * Debian 11 (bullseye) or later, or sid/unstable: ```sudo apt install podman```
+ * openSUSE: ```sudo zypper install podman```
  * ArchLinux: ```sudo pacman -S podman``` and then tweaks for rootless 
 
 [Podman Desktop](https://github.com/containers/podman-desktop) is a tool to manage Podman and other container engines from a single UI and tray local environment.
@@ -283,6 +284,7 @@
  * CentOS Stream: ```sudo dnf -y install buildah```
  * Ubuntu 20.04 or later: ```sudo apt install buildah```
  * Debian 11 (bullseye) or later, or sid/unstable: ```sudo apt install -y buildah```
+ * openSUSE: ```sudo zypper install buildah```
  * ArchLinux: ```sudo pacman -S buildah``` and then tweaks for rootless 
  
  <p align="center">
@@ -301,6 +303,8 @@
 <img src="https://user-images.githubusercontent.com/45159366/194253663-80663090-0ed1-4ac9-8d2b-b1fb390b7be8.png">
   <br />
 </p>
+
+**Installing Skopeo:**
 
  * Fedora: ```sudo dnf install skopeo```
  * CentOS Stream: ```sudo dnf -y install skopeo```
