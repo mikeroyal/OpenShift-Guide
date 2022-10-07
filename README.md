@@ -16,6 +16,7 @@
 # Table of Contents
 
 1. [Getting Started with OpenShift](https://github.com/mikeroyal/OpenShift-Guide/blob/main/README.md#getting-started-with-openshift)
+    * [What is OpenShift?](#what-is-openshift)
     * [Developer Resources](#Developer-Resources)
     * [Certifications & Courses](#Certifications--Courses)
     * [Books](#Books)
@@ -55,6 +56,8 @@
 # Getting Started with OpenShift
 
 [Back to the Top](#table-of-contents)
+
+### What is OpenShift?
 
 [Red Hat OpenShift](https://www.openshift.com/) is an open source container application platform based on the Kubernetes container orchestrator for enterprise app development and deployment in the hybrid cloud Red Hat OpenShift, the open hybrid cloud platform built on Kubernetes.
 
