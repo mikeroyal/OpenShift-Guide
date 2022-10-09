@@ -20,6 +20,7 @@
     * [Developer Resources](#Developer-Resources)
     * [Certifications & Courses](#Certifications--Courses)
     * [Books](#Books)
+    * [Setting up Red Hat OpenShift Data Science](#Setting-up-Red-Hat-OpenShift-Data-Science)
     * [Setting up Red Hat CodeReady Containers (CRC) OpenShift](https://github.com/mikeroyal/OpenShift-Guide#Red-Hat-CodeReady-Containers-CRC)
     * [Setting up Podman](https://github.com/mikeroyal/OpenShift-Guide#setting-up-podman)
     * [Setting up Buildah](https://github.com/mikeroyal/OpenShift-Guide#setting-up-buildah)
@@ -147,6 +148,80 @@
  * [IBM Spectrum Scale as a Persistent Storage for Red Hat OpenShift on IBM Z Quick Installation Guide](https://www.redbooks.ibm.com/abstracts/redp5645.html)
 
  * [Innovate at Scale and Deploy with Confidence in a Hybrid Cloud Environment](https://www.redbooks.ibm.com/abstracts/redp5621.html)
+ 
+### Setting up Red Hat OpenShift Data Science
+
+[Back to the Top](# table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/194743105-33439b99-2d5a-4d09-9131-4e90f7661e20.png">
+  <br />
+</p>
+
+[Red Hat® OpenShift® Data Science](https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-data-science) is a fully  managed cloud service for data scientists and developers of intelligent applications on [Red Hat OpenShift Dedicated](https://cloud.redhat.com/products/dedicated/) or [Red Hat OpenShift Service on AWS](https://cloud.redhat.com/products/amazon-openshift). It provides a fully supported sandbox in which to rapidly develop, train, and test machine learning (ML) models in the public cloud before deploying in production.
+
+ * [Red Hat OpenShift Data Science learning tutorials](https://developers.redhat.com/learn/openshift-data-science)
+ 
+ 
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/194743106-b7fa780d-cc56-4ede-8029-925e8b16ea71.png">
+  <br />
+  Installing Red Hat OpenShift Data Science
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/194743108-bd53a59e-2c05-405e-85a6-d0c359818d9f.png">
+  <br />
+  Opening Red Hat OpenShift Data Science
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/194743109-59f39af3-b6c7-46a0-ae91-b6c498fe2972.png">
+  <br />
+  JuypterHub on Red Hat OpenShift Data Science
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/194743110-8a4216c6-a95e-49c6-aee3-a84ce40efb75.png">
+  <br />
+  Exploring Tools on Red Hat OpenShift Data Science
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/194743113-e1d06d91-8671-4884-ab7c-598a341ec1df.png">
+  <br />
+  Setting up JupyterHub Notebook Server
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/194743115-fcb9f17a-4697-433b-b83c-f9d924b32a70.png">
+  <br />
+  Creating a new Python 3 Notebook
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/194743120-7f8c723d-46cb-4286-9e47-b8edbbf1859a.png">
+  <br />
+  Python 3 JupyterHub Notebook
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/194743123-63442e0e-1339-4362-9f1f-7feb2063f8ee.png">
+  <br />
+  JupyterHub Notebook Sample Demo
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/194743125-c7f71b55-e90c-4438-afc6-0dfcaae5731c.png">
+  <br />
+  OpenShift Project Models
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/194743454-f4a242db-b7d9-493e-9a6c-f88e05920186.png">
+  <br />
+  How OpenShift integrates with JupyterHub using Python - Source-to-Image (S2I)
+</p>
  
  ### Red Hat CodeReady Containers (CRC)
 
