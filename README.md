@@ -151,7 +151,7 @@
  
 ### Setting up Red Hat OpenShift Data Science
 
-[Back to the Top](# table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/194743105-33439b99-2d5a-4d09-9131-4e90f7661e20.png">
