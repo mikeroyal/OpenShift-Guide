@@ -18,7 +18,7 @@
 1. [Getting Started with OpenShift](https://github.com/mikeroyal/OpenShift-Guide/blob/main/README.md#getting-started-with-openshift)
     * [What is OpenShift?](#what-is-openshift)
     * [Developer Resources](#Developer-Resources)
-    * [Source-to-Image(S2I) images for buildng your Apps](Source-to-Image-S2I-builder-images-for-buildng-your-apps)
+    * [Source-to-Image(S2I) images for buildng your Apps](#source-to-image-s2i-images-for-programmingbuildng-your-apps)
        
         * [Java](#Java)
         * [Python](#Python)
@@ -80,14 +80,14 @@
 
 ### What is OpenShift?
 
-[Red Hat OpenShift](https://www.openshift.com/) is an open source container application platform based on the Kubernetes container orchestrator for enterprise app development and deployment in the hybrid cloud Red Hat OpenShift, the open hybrid cloud platform built on Kubernetes.
+[Red Hat OpenShift](https://www.openshift.com/) is an open source container application platform based on the Kubernetes container orchestrator for enterprise app development and deployment in the hybrid cloud Red Hat OpenShift, the open hybrid cloud platform built on Kubernetes. OpenShift can manage applications written in different languages and frameworks, such as Ruby, Node.js, Java, Perl, and Python.
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/114321361-5763d400-9acf-11eb-94d6-5569dbd712a2.png">
+ <img src="https://user-images.githubusercontent.com/45159366/194815527-f79eed0d-7759-483d-8548-93577eaf4b4c.png">
   <br />
 </p>
  
-**Red Hat OpenShift Storage Architecture. Source: [Red Hat](https://www.redhat.com/en/resources/openshift-container-storage-datasheet)**
+**Red Hat OpenShift Development Architecture. Source: [Red Hat](https://www.redhat.com/en/resources/openshift-container-storage-datasheet)**
 
 ### Developer Resources
 [Back to the Top](#table-of-contents)
