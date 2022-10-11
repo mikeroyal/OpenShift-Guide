@@ -39,8 +39,8 @@
        * [MariaDB](#mariadb)
        * [Redis](#redis)
        
-    * [Setting up Openshift on Microsoft Azure](Setting-up-on-Microsoft-Azure)
-    * [Setting up Openshift on Google Cloud Platform (GCP)](Setting-up-on-Google-Cloud-GCP)
+    * [Setting up Openshift on Microsoft Azure](#Setting-up-on-Microsoft-Azure)
+    * [Setting up Openshift on Google Cloud Platform (GCP)](#Setting-up-on-Google-Cloud-GCP)
     * [Setting up Red Hat OpenShift Data Science](#Setting-up-Red-Hat-OpenShift-Data-Science)
     * [Setting up Red Hat CodeReady Containers (CRC) OpenShift](https://github.com/mikeroyal/OpenShift-Guide#Red-Hat-CodeReady-Containers-CRC)
     * [Setting up Podman](https://github.com/mikeroyal/OpenShift-Guide#setting-up-podman)
