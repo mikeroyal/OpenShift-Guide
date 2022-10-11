@@ -40,6 +40,7 @@
        * [Redis](#redis)
        
     * [Setting up Openshift on Microsoft Azure](Setting-up-on-Microsoft-Azure)
+    * [Setting up Openshift on Google Cloud Platform (GCP)](Setting-up-on-Google-Cloud-GCP)
     * [Setting up Red Hat OpenShift Data Science](#Setting-up-Red-Hat-OpenShift-Data-Science)
     * [Setting up Red Hat CodeReady Containers (CRC) OpenShift](https://github.com/mikeroyal/OpenShift-Guide#Red-Hat-CodeReady-Containers-CRC)
     * [Setting up Podman](https://github.com/mikeroyal/OpenShift-Guide#setting-up-podman)
@@ -412,7 +413,63 @@ az aro create \
 
 ```
    
+### Setting up on Google Cloud (GCP)
+
+[Back to the Top](#table-of-contents)
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/195022791-7e494f28-3001-435f-ba5d-b903682e12a8.png">
+  <br />
+</p>
+ 
+ * If you don’t have a GCP account already, [sign-up for Cloud Platform](https://cloud.google.com/free-trial/), setup billing and activate APIs.
+ 
+ * Setup a service account. A service account is a way to interact with your GCP resources by using a different identity than your primary login and is generally intended for server-to-server interaction. From the GCP Navigation Menu, click on **"Permissions."**
+
+   * Click on **"Service accounts."**
    
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/195022808-4b4fbe2f-d04f-4ef1-b1a7-dda46df4869e.PNG">
+  <br />
+</p>
+     
+Click on **"Create service account,"** which will prompt you to enter a [service account](https://developers.google.com/identity/protocols/OAuth2ServiceAccount#overview) name. Provide a name for your project and click on **"Furnish a new private key."** The default **"JSON"** Key type should be left selected.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/195022820-2794f3c3-93a7-4f06-b880-c6636c2f3616.PNG">
+  <br />
+</p>
+
+Once you click **"Create,"** a service account **“.json”** will be downloaded to your browser’s downloads location.
+
+ * **Important:** Like any credential, this represents an access mechanism to authenticate and use resources in your GCP account. Never place this file in a publicly accessible source repo (Public GitHub or GitLab).
+ 
+ using the JSON credential via a Kubernetes secret deployed to your OpenShift cluster. To do so, first perform a base64 encoding of your JSON credential file:
+ 
+ ``` base64 -i ~/path/to/downloads/credentials.json```
+ 
+ Keep the output (a very long string) ready for use in the next step, where you’ll replace ```‘BASE64_CREDENTIAL_STRING’``` in the pod example (below) with the output just captured from base64 encoding.
+ 
+ * **Note:** base64 is encoded (not encrypted) and can be readily reversed, so this file (with the base64 string) is just as confidential as the credential file above. 
+ 
+ Create the [Kubernetes secret](http://kubernetes.io/docs/user-guide/secrets/) inside your OpenShift Cluster. A secret is the proper place to make sensitive information available to pods running in your cluster (like passwords or the credentials downloaded in the previous step).
+ 
+ ```
+apiVersion: v1
+kind: Secret
+metadata:
+  name: google-services-secret
+type: Opaque
+data:
+  google-services.json: BASE64_CREDENTIAL_STRING
+```
+
+**Note:** Replace ```‘BASE64_CREDENTIAL_STRING’``` with the base64 output from the prior step. 
+
+**Deploy the secret to the cluster:**
+
+```oc create -f google-secret.yaml```
+
  
 ### Setting up Red Hat OpenShift Data Science
 
