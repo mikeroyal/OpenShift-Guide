@@ -18,6 +18,8 @@
 1. [Getting Started with OpenShift](https://github.com/mikeroyal/OpenShift-Guide/blob/main/README.md#getting-started-with-openshift)
     * [What is OpenShift?](#what-is-openshift)
     * [Developer Resources](#Developer-Resources)
+        * [Certifications & Courses](#Certifications--Courses)
+        * [Books](#Books)
     * [Source-to-Image(S2I) images for buildng your Apps](#source-to-image-s2i-images-for-programmingbuildng-your-apps)
        
         * [Java](#Java)
@@ -36,9 +38,8 @@
        * [MongoDB](#mongodb)
        * [MariaDB](#mariadb)
        * [Redis](#redis)
-	  
-    * [Certifications & Courses](#Certifications--Courses)
-    * [Books](#Books)
+       
+    * [Setting up Openshift on Microsoft Azure](Setting-up-on-Microsoft-Azure)
     * [Setting up Red Hat OpenShift Data Science](#Setting-up-Red-Hat-OpenShift-Data-Science)
     * [Setting up Red Hat CodeReady Containers (CRC) OpenShift](https://github.com/mikeroyal/OpenShift-Guide#Red-Hat-CodeReady-Containers-CRC)
     * [Setting up Podman](https://github.com/mikeroyal/OpenShift-Guide#setting-up-podman)
@@ -122,7 +123,53 @@
 
  * [What hosting services are there that use OpenShift?](https://developers.redhat.com/openshift/hosting-openshift/)
  
- ### Source-to-Image (S2I) images for programming/buildng your Apps
+ ### Certifications & Courses
+[Back to the Top](#table-of-contents)
+ 
+ * [OpenShift Training from Red Hat](https://www.redhat.com/en/openshift-training)
+
+ * [OpenShift: Interactive Learning Portal](https://learn.openshift.com/)
+
+ * [Red Hat Certified Specialist in OpenShift Administration](https://www.redhat.com/en/services/certification/rhcs-paas)
+
+ * [Red Hat OpenShift Operator Certification](https://www.openshift.com/blog/red-hat-openshift-operator-certification)
+
+ * [Kubernetes and OpenShift: Community, Standards and Certifications](https://www.openshift.com/blog/kubernetes-and-openshift-community-standards-and-certifications)
+
+ * [OpenShift Courses | Udemy](https://www.udemy.com/topic/openshift/)
+
+ * [OpenShift - Deploying Applications course | Coursera](https://www.coursera.org/lecture/ibm-cloud-essentials/openshift-499y0)
+
+ * [Introduction to Containers w/ Docker, Kubernetes & OpenShift course | Coursera](https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift)
+
+ * [Fundamentals of Containers, Kubernetes, and Red Hat OpenShift | edX](https://www.edx.org/course/fundamentals-of-containers-kubernetes-and-red-hat)
+ 
+### Books
+[Back to the Top](#table-of-contents)
+
+ * [OpenShift for Developers, Second Edition by Joshua Wood & Brian Tannous ](https://developers.redhat.com/e-books/openshift-for-developers)
+
+ * [Introducing Istio Service Mesh for Microservices by Burr Sutter and Christian Posta](https://developers.redhat.com/e-books/introducing-istio-service-mesh-microservices-old)
+
+ * [DevOps with OpenShift by Stefano Picozzi, Mike Hepburn & Noel O'Connor](https://developers.redhat.com/topics/devops)
+
+ * [Microservices for Java Developers: A Hands-on Introduction to Frameworks and Containers by Rafael Benevides](https://developers.redhat.com/e-books/microservices-java-developers-hands-introduction-frameworks-and-containers-old)
+
+ * [Migrating to Microservice Databases: From Relational Monolith to Distributed Data by Edson Yanaga](https://developers.redhat.com/e-books/migrating-microservice-databases-relational-monolith-distributed-data-old)
+
+ * [OpenShift 3 for Developers: A Guide for Impatient Beginners by Grant Shipley, Graham Dumpleton](https://developers.redhat.com/e-books/openshift-developers-guide-impatient-beginners-old)
+
+ * [Using the IBM Block Storage CSI Driver in a Red Hat OpenShift Environment](https://www.redbooks.ibm.com/abstracts/redp5613.html)
+
+ * [Storage Multi-tenancy for Red Hat OpenShift Container Platform with IBM Storage](https://www.redbooks.ibm.com/abstracts/redp5638.html)
+
+ * [An Implementation of Red Hat OpenShift Network Isolation Using Multiple Ingress Controllers](https://www.redbooks.ibm.com/abstracts/redp5641.html)
+
+ * [IBM Spectrum Scale as a Persistent Storage for Red Hat OpenShift on IBM Z Quick Installation Guide](https://www.redbooks.ibm.com/abstracts/redp5645.html)
+
+ * [Innovate at Scale and Deploy with Confidence in a Hybrid Cloud Environment](https://www.redbooks.ibm.com/abstracts/redp5621.html)
+ 
+### Source-to-Image (S2I) images for programming/buildng your Apps
 
 [Back to the Top](#table-of-contents)
 
@@ -247,52 +294,125 @@
    
    * [Redis - Database Images for OpenShift](https://github.com/sclorg/redis-container)
    
- 
-### Certifications & Courses
-[Back to the Top](#table-of-contents)
- 
- * [OpenShift Training from Red Hat](https://www.redhat.com/en/openshift-training)
+### Setting up on Microsoft Azure
 
- * [OpenShift: Interactive Learning Portal](https://learn.openshift.com/)
-
- * [Red Hat Certified Specialist in OpenShift Administration](https://www.redhat.com/en/services/certification/rhcs-paas)
-
- * [Red Hat OpenShift Operator Certification](https://www.openshift.com/blog/red-hat-openshift-operator-certification)
-
- * [Kubernetes and OpenShift: Community, Standards and Certifications](https://www.openshift.com/blog/kubernetes-and-openshift-community-standards-and-certifications)
-
- * [OpenShift Courses | Udemy](https://www.udemy.com/topic/openshift/)
-
- * [OpenShift - Deploying Applications course | Coursera](https://www.coursera.org/lecture/ibm-cloud-essentials/openshift-499y0)
-
- * [Introduction to Containers w/ Docker, Kubernetes & OpenShift course | Coursera](https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift)
-
- * [Fundamentals of Containers, Kubernetes, and Red Hat OpenShift | edX](https://www.edx.org/course/fundamentals-of-containers-kubernetes-and-red-hat)
- 
-### Books
 [Back to the Top](#table-of-contents)
 
- * [OpenShift for Developers, Second Edition by Joshua Wood & Brian Tannous ](https://developers.redhat.com/e-books/openshift-for-developers)
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/195019458-32fd1479-06f6-4593-836b-798bd5c3f332.png">
+  <br />
+</p>
+ 
 
- * [Introducing Istio Service Mesh for Microservices by Burr Sutter and Christian Posta](https://developers.redhat.com/e-books/introducing-istio-service-mesh-microservices-old)
+[Microsoft Azure Red Hat OpenShift](https://learn.microsoft.com/en-us/azure/openshift/) is a fully managed offering of OpenShift running in Azure. This service is jointly managed and supported by [Microsoft](https://www.microsoft.com) and [Red Hat](https://redhat.com/). 
 
- * [DevOps with OpenShift by Stefano Picozzi, Mike Hepburn & Noel O'Connor](https://developers.redhat.com/topics/devops)
+**Requirements:**
 
- * [Microservices for Java Developers: A Hands-on Introduction to Frameworks and Containers by Rafael Benevides](https://developers.redhat.com/e-books/microservices-java-developers-hands-introduction-frameworks-and-containers-old)
+ * [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/) version 2.6.0 or later.
 
- * [Migrating to Microservice Databases: From Relational Monolith to Distributed Data by Edson Yanaga](https://developers.redhat.com/e-books/migrating-microservice-databases-relational-monolith-distributed-data-old)
+ * A minimum of **40 vCores(virtual cores)** to create and run an OpenShift cluster. 
+ 
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/195019497-a95eeb5c-e4c6-4e79-b25f-aedc9bd2fd0c.png">
+  <br />
+</p>
+ 
+Ingress traffic to an Azure Red Hat OpenShift cluster. Image Credit: [Red Hat](https://www.redhat.com/en/blog/how-deploy-azure-red-hat-openshift)
+ 
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/195019501-6b7df3b2-dcf3-4f92-abe2-427ab0200cac.png">
+  <br />
+</p>
+ 
+Egress traffic from an Azure Red Hat OpenShift cluster and connection to the cluster. Image Credit: [Red Hat](https://www.redhat.com/en/blog/how-deploy-azure-red-hat-openshift)
 
- * [OpenShift 3 for Developers: A Guide for Impatient Beginners by Grant Shipley, Graham Dumpleton](https://developers.redhat.com/e-books/openshift-developers-guide-impatient-beginners-old)
+#### Register the Resource Providers
 
- * [Using the IBM Block Storage CSI Driver in a Red Hat OpenShift Environment](https://www.redbooks.ibm.com/abstracts/redp5613.html)
+  * [Member and guest users.](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/users-default-permissions#member-and-guest-users)
+ 
+  * [Assign administrator and non-administrator roles to users with Azure Active Director.](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)
 
- * [Storage Multi-tenancy for Red Hat OpenShift Container Platform with IBM Storage](https://www.redbooks.ibm.com/abstracts/redp5638.html)
+**If you have multiple Azure subscriptions, specify the relevant subscription ID:**
+   
+```az account set --subscription <SUBSCRIPTION ID>```
 
- * [An Implementation of Red Hat OpenShift Network Isolation Using Multiple Ingress Controllers](https://www.redbooks.ibm.com/abstracts/redp5641.html)
+**Register the Microsoft.RedHatOpenShift resource provider:**
 
- * [IBM Spectrum Scale as a Persistent Storage for Red Hat OpenShift on IBM Z Quick Installation Guide](https://www.redbooks.ibm.com/abstracts/redp5645.html)
+```az provider register -n Microsoft.RedHatOpenShift --wait```
 
- * [Innovate at Scale and Deploy with Confidence in a Hybrid Cloud Environment](https://www.redbooks.ibm.com/abstracts/redp5621.html)
+**Register the Microsoft.Compute resource provider:**
+
+```az provider register -n Microsoft.Compute --wait```
+
+**Register the Microsoft.Storage resource provider:**
+
+```az provider register -n Microsoft.Storage --wait```
+
+**Register the Microsoft.Authorization resource provider:**
+
+```az provider register -n Microsoft.Authorization --wait```
+
+**Create a Resource Group:**
+
+```
+az group create \
+  --name $RESOURCEGROUP \
+  --location $LOCATION
+```
+
+**Creating a Virtual Network:**
+
+```
+az network vnet create \
+   --resource-group $RESOURCEGROUP \
+   --name aro-vnet \
+   --address-prefixes 10.0.0.0/22
+```
+**Adding empty subnet for the master nodes.**
+
+```
+az network vnet subnet create \
+  --resource-group $RESOURCEGROUP \
+  --vnet-name aro-vnet \
+  --name master-subnet \
+  --address-prefixes 10.0.0.0/23 \
+  --service-endpoints Microsoft.ContainerRegistry
+```
+**Adding empty subnet for the worker nodes.**
+
+```
+az network vnet subnet create \
+  --resource-group $RESOURCEGROUP \
+  --vnet-name aro-vnet \
+  --name worker-subnet \
+  --address-prefixes 10.0.2.0/23 \
+  --service-endpoints Microsoft.ContainerRegistry
+```
+
+**[Disable subnet private endpoint policies](https://learn.microsoft.com/en-us/azure/private-link/disable-private-link-service-network-policy) on the master subnet.**
+
+```
+az network vnet subnet update \
+  --name master-subnet \
+  --resource-group $RESOURCEGROUP \
+  --vnet-name aro-vnet \
+  --disable-private-link-service-network-policies true
+
+```
+
+**Creating a Cluster**
+
+```
+az aro create \
+  --resource-group $RESOURCEGROUP \
+  --name $CLUSTER \
+  --vnet aro-vnet \
+  --master-subnet master-subnet \
+  --worker-subnet worker-subnet
+
+```
+   
+   
  
 ### Setting up Red Hat OpenShift Data Science
 
