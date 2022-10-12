@@ -462,6 +462,26 @@ az aro create \
   <br />
 </p>
  
+#### Minimum Requirements:
+
+* [gcloud CLI](https://cloud.google.com/sdk/gcloud/) or [OpenShift CLI (oc)](https://access.redhat.com/downloads/content/290).
+ 
+**Master Nodes:**
+ 
+   * Minimum 4 vCPU (additional are strongly recommended).
+
+   * Minimum 16 GB RAM (additional memory is strongly recommended, especially if etcd is co-located on masters).
+
+   * Minimum 40 GB hard disk space for the file system .
+ 
+**Worker Nodes:**
+ 
+   * 1 vCPU.
+
+   * Minimum 8 GB RAM.
+
+   * Minimum 15 GB hard disk space for the file system.
+ 
  * If you don’t have a GCP account already, [sign-up for Cloud Platform](https://cloud.google.com/free-trial/), setup billing and activate APIs.
  
  * Setup a service account. A service account is a way to interact with your GCP resources by using a different identity than your primary login and is generally intended for server-to-server interaction. From the GCP Navigation Menu, click on **"Permissions."**
