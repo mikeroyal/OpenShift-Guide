@@ -311,7 +311,47 @@
 
  * [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/) version 2.6.0 or later.
 
- * A minimum of **40 vCores(virtual cores)** to create and run an OpenShift cluster. 
+ * **56 vCPUs**, so you must increase the account limit.
+
+By default, each cluster creates the following instances:
+
+   * One bootstrap machine, which is removed after installation
+
+   * Three control plane machines
+
+   * Three compute machines
+
+Because the bootstrap, control plane, and worker machines use ```Standard_DS4_v2``` virtual machines, which use **8 vCPUs**, a default cluster requires **56 vCPUs**. The bootstrap node VM is used only during installation. To deploy more worker nodes, enable autoscaling, deploy large workloads, or use a different instance type, you must further increase the vCPU limit for your account to ensure that your cluster can deploy the machines that you require.
+
+* **1 VNet.** Each default cluster requires one Virtual Network (VNet), which contains two subnets.
+
+* **7 Network interfaces.** Each default cluster requires seven network interfaces. If you create more machines or your deployed workloads create load balancers, your cluster uses more network interfaces.
+
+* **2 Network security groups.** Each cluster creates network security groups for each subnet in the VNet. The default cluster creates network security groups for the control plane and for the compute node subnets:
+controlplane 	
+
+     * Allows the control plane machines to be reached on port 6443 from anywhere.
+node 	
+
+     * Allows worker nodes to be reached from the internet on ports 80 and 443.
+
+* **3 Network load balancers.** Each cluster creates the following load balancers:
+default 	
+
+   * Public IP address that load balances requests to ports 80 and 443 across worker machines
+internal 	
+
+   * Private IP address that load balances requests to ports 6443 and 22623 across control plane machines
+external 	
+
+   * Public IP address that load balances requests to port 6443 across control plane machines
+
+ * **Note:** If your applications create more Kubernetes LoadBalancer service objects, your cluster uses more load balancers.
+
+
+ * **2 Public IP addresses.** The public load balancer uses a public IP address. The bootstrap machine also uses a public IP address so that you can SSH into the machine to troubleshoot issues during installation. The IP address for the bootstrap node is used only during installation.
+
+ * **7 Private IP addresses.** The internal load balancer, each of the three control plane machines, and each of the three worker machines each use a private IP address.
  
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/195019497-a95eeb5c-e4c6-4e79-b25f-aedc9bd2fd0c.png">
